@@ -11,7 +11,8 @@ def mostrar_menu():
     print('3 - Pesquisar por um nome.')
     print('4 - Atualizar nome.')
     print('5 - Deletar um nome.')
-    print('6 - Finalizar programa.')
+    print('6 - Ordenar a lista em ordem alfabética.')
+    print('7 - Finalizar programa.')
 
 # lista de nomes
 nomes = ['Fulano', 'Cicrano', 'Beltrano', 'João', 'Maria', 'José']
@@ -68,6 +69,11 @@ while True:
             print('Operação cancelada.')
             continue
     elif opcao == '6':
+        # ordena a lista em ordem alfabética
+        nomes.sort()
+        print('Lista ordenada com sucesso.')
+        continue
+    elif opcao == '7':
         # sai do programa
         print('Até mais...')
         break
