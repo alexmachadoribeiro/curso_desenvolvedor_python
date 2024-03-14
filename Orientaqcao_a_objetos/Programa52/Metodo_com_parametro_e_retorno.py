@@ -4,7 +4,7 @@ Programa: Métodos com parâmetro e retorno
 Objetivo: trabalhar com os parâmetros e retornos de métodos de uma classe.
 '''
 
-# classe pessoa
+# ANCHOR: classe pessoa
 class Pessoa:
     # atributos
     nome = 'Fulano de Tal'
@@ -15,7 +15,7 @@ class Pessoa:
     def receber_salario(self, descontos):
         return self.salario_bruto - descontos
 
-# programa principal
+# ANCHOR: programa principal
 if __name__ == '__main__':
     # instancia o objeto pessoa
     usuario = Pessoa()

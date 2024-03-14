@@ -8,7 +8,7 @@ Objetivo: trabalhar com construtor de uma classe.
 # Ao programar o método, você indica quais atributos deverão obrigatoriamente inicializar com a instância do objeto.
 # Em Python, só é possível ter um único método construtor, ao contrário de outras linguagens de programação.
 
-# classe pessoa
+# ANCHOR: classe pessoa
 class Pessoa:
     # método construtor
     # NOTE: o método construtor sempre é inicializado com a palavra reservada '__init__' (dois underscores, palavra init e dois underscores).
@@ -17,7 +17,7 @@ class Pessoa:
         self.idade = idade
         self.cpf = cpf
 
-# programa principal
+# ANCHOR: programa principal
 if __name__ == '__main__':
     # entrada de dados
     nome = input('Informe um nome: ')

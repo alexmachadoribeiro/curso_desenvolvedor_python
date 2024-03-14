@@ -4,9 +4,10 @@ Programa: Map
 Objetivo: transformar uma lista numérica em progressão geométrica.
 '''
 
-# lambda
+# ANCHOR: lambda
 calcular_pg = lambda x: x * 2
 
+# ANCHOR: programa principal
 # lista de números
 numeros = [1,2,3,4,5]
 

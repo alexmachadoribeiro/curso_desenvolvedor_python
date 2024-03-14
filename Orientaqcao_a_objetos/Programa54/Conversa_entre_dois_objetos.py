@@ -4,7 +4,7 @@ Programa: Conversa Entre Dois Objetos
 Objetivo: montar um diálogo entre dois objetos.
 '''
 
-# classe pessoa
+# ANCHOR: classe pessoa
 class Pessoa:
     # construtor
     def __init__(self, nome, idade, profissao):
@@ -19,7 +19,7 @@ class Pessoa:
     def responder(self, nome):
         return f'Olá {nome}. Meu nome é {self.nome} e sou um {self.profissao}. Muito prazer.'
 
-# programa principal
+# ANCHOR: programa principal
 if __name__ == '__main__':
     # entrada de dados do usuário
     nome = input('Informe seu nome: ')

@@ -4,6 +4,7 @@ Programa: CRUD
 Objetivo: CRUD com Python.
 '''
 
+# ANCHOR: funções
 # função menu
 def mostrar_menu():
     print('\n1 - Adicionar novo nome.')
@@ -14,6 +15,7 @@ def mostrar_menu():
     print('6 - Ordenar a lista em ordem alfabética.')
     print('7 - Finalizar programa.')
 
+# ANCHOR: programa principal
 # lista de nomes
 nomes = ['Fulano', 'Cicrano', 'Beltrano', 'João', 'Maria', 'José']
 

@@ -4,7 +4,7 @@ Programa: Métodos
 Objetivo: trabalhar com os métodos de uma classe.
 '''
 
-# classe pessoa
+# ANCHOR: classe pessoa
 class Pessoa:
     # atributos
     nome = 'Fulano de Tal'
@@ -18,7 +18,7 @@ class Pessoa:
     def apresentar(self):
         print(f'Olá. Meu nome é {self.nome}, trabalho como {self.profissao} e tenho {self.idade} anos.')
 
-# programa principal
+# ANCHOR: programa principal
 if __name__ == '__main__':
     # instancia o objeto pessoa
     usuario = Pessoa()

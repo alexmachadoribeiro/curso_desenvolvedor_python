@@ -4,10 +4,11 @@ Programa: Banco
 Objetivo: criar uma conta em um banco e fazer as operações consultar dados, depositar valor, sacar valor e sair do programa.
 '''
 
-# importa bibliotecas
+# ANCHOR: importa bibliotecas
 import os
 import random # biblioteca para gerar números aleatórios
 
+# ANCHOR: funções
 # função consultar dados
 def consultar_dados(nome, cpf, agencia, conta, saldo):
     print(f'Nome do correntista: {nome}.')
@@ -24,12 +25,14 @@ def mostrar_menu():
     print('3 - Fazer saque.')
     print('4 - Sair do programa.')
 
+# ANCHOR: lambdas
 # lambda fazer depósito
 fazer_deposito = lambda saldo, valor: saldo + valor
 
 # lambda fazer saque
 fazer_saque = lambda saldo, valor: saldo - valor
 
+# ANCHOR: programa principal
 # início do programa
 print('-----BANCO COBRA-----\n')
 

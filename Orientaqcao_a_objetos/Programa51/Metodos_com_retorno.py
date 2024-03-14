@@ -4,7 +4,7 @@ Programa: Métodos com retorno
 Objetivo: trabalhar com os retornos de métodos de uma classe.
 '''
 
-# classe pessoa
+# ANCHOR: classe pessoa
 class Pessoa:
     # atributos
     nome = 'Fulano de Tal'
@@ -16,7 +16,7 @@ class Pessoa:
         # NOTE: o comando return é usado em métodos para retornar algum valor para ser usado no programa principal, como a função de saída de dados ou para enviar o valor para alguma variável.
         return self.peso / self.altura ** 2
 
-# programa principal
+# ANCHOR: programa principal
 if __name__ == '__main__':
     # instancia o objeto pessoa
     usuario = Pessoa()

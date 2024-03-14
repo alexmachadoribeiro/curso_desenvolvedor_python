@@ -6,7 +6,7 @@ Objetivo: criar funções lambda que calculem as operações básicas da matemá
 
 # NOTE: funções lambda são funções que o usuário não precisa definir, ou seja, não vai precisar escrever a função e depois utilizá-la dentro do código.
 
-# funções lambda
+# ANCHOR: funções lambda
 # NOTE: funções lambda são ideais quando se deseja criar funções que possuem apenas o retorno
 soma = lambda x, y: x + y
 subtracao = lambda x, y: x - y
@@ -15,7 +15,7 @@ divisao = lambda x, y: x / y
 resto = lambda x, y: x % y
 potencia = lambda x, y: x ** y
 
-# função normal para exibir um menu
+# ANCHOR: função normal para exibir um menu
 # NOTE: esse é um exemplo de uma função que não recebe parâmetros nem retorna nada
 def exibir_menu():
     print('---ESCOLHA A OPERAÇÃO DESEJADA---\n')
@@ -26,6 +26,7 @@ def exibir_menu():
     print('% para calcular o resto da divisão.')
     print('** para calcular a potenciação do primeiro número elevado ao segundo número.\n')
 
+# ANCHOR: programa principal
 # inicio do loop
 while True:
     # entrada de dados

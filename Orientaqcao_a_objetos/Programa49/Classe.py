@@ -10,7 +10,7 @@ Objetivo: criar uma classe e instanciar um objeto.
 # Um objeto é uma representação de uma classe dentro do programa. Posso criar quantos objetos da mesma classe quiser.
 # Isso evita a criação de várias variáveis para representar o mesmo tipo de característica de pessoas diferentes, por exemplo.
 
-# classe Pessoa
+# ANCHOR: classe Pessoa
 class Pessoa:
     # atributos
     # NOTE: os atributos definem as características que o objeto terá
@@ -20,7 +20,7 @@ class Pessoa:
 
 # NOTE: caso a classe e o programa a ser executado estejam no mesmo arquivo, se faz necessário a criação da estrutura if abaixo.
 
-# programa principal
+# ANCHOR: programa principal
 if __name__ == '__main__':
     # instanciando um objeto do tipo pessoa
     # NOTE: instanciar é o mesmo que criar. Um objeto é uma representação da classe no programa
